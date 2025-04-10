@@ -1,0 +1,81 @@
+
+
+* { 
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scrollbar-color: goldenrod white;
+}
+
+.nav li {
+        float: left;
+}
+
+.nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: goldenrod;
+}
+
+.nav a {
+        display: block;
+ 	font-family: 'Arial', sans-serif;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-transform: uppercase; /* Optional for a bold look */
+        letter-spacing: 0.5px; /* Adds a sleek touch */
+        text-decoration: none;
+}
+
+
+body { 
+	font-family: 'Arial';
+	font-weight: 400;
+        line-height: 1.7;
+	color: black;
+	padding: 4rem 0;
+}
+
+h1, h2, h3, h4 { 
+	font-family: 'Arial', sans-serif;
+	font-weight: 600;
+	line-height: 1;
+	letter-spacing: 1px;
+	text-transform: uppercase; /* Optional for a bold look */
+        letter-spacing: 0.5px; /* Adds a sleek touch */
+}
+
+h1 { 
+	font-size: 3rem; 
+	line-height: 1; 
+	margin: 1rem; 
+}
+	
+h2 { 
+	font-size: 2rem; 
+	margin: 0 0.5rem 1rem 1rem; 
+	padding-top: 3.5rem; 
+}
+
+h3 { 
+	font-size: 1.5rem; 
+	margin: 1.5rem 0.5rem 0.5rem 1.5rem;  
+}
+
+h4 { 
+	font-size: 1.25rem; 
+	margin: 1.5rem 1.5rem 0.5rem 1.5rem; 
+	position:relative; 
+	padding-left: 90px; 
+}
+
+
+p { 
+	font-size: 1rem; 
+	margin: 1.5rem 1.5rem 0.5rem 1.5rem; 
+	position:relative; 
+	padding-left: 90px; 
+}
